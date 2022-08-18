@@ -1,0 +1,668 @@
+
+{
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "search.mode": "view",
+  "git.mergeEditor": true,
+  "terminal.integrated.scrollback": 100000,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.autoIndent": "advanced",
+  "vim.useSystemClipboard": true,
+  "vim.sneak": true,
+  "vim.hlsearch": true,
+  "vim.ignorecase": true,
+  "vim.easymotion": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.smartRelativeLine": true,
+  "whichkey.delay": 0,
+  "whichkey.bindingOverrides": [
+    {
+      "keys": ",",
+      "name": "Close tabs and windows",
+      "commands": [
+        "workbench.action.closeSidebar",
+        "workbench.action.closePanel",
+        "workbench.action.closeAllEditors"
+      ],
+      "type": "bindings"
+    },
+    {
+      "keys": "o",
+      "name": "Open...",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "o",
+          "name": "order-checking",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/order-checking/here"
+          }
+        },
+        {
+          "key": "1",
+          "name": "au-editor",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/au-editor/here"
+          }
+        },
+        {
+          "key": "s",
+          "name": "auds",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/auds/here"
+          }
+        },
+        {
+          "key": "a",
+          "name": "automation-v2",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/automation-v2/here"
+          }
+        },
+        {
+          "key": "p",
+          "name": "au-pickle",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/au-pickle/here"
+          }
+        },
+        {
+          "key": "b",
+          "name": "automation-bebop",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/automation-bebop/here"
+          }
+        },
+        {
+          "key": "t",
+          "name": "au-types",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/au-types/here"
+          }
+        },
+        {
+          "key": "2",
+          "name": "editor-v2",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/editor-v2/here"
+          }
+        },
+        {
+          "key": "d",
+          "name": "crud-core",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/crud-core/here"
+          }
+        },
+        {
+          "key": "u",
+          "name": "au-magenum",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/au-magenum/here"
+          }
+        },
+        {
+          "key": "m",
+          "name": "au-magento",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/au-magento/here"
+          }
+        },
+        {
+          "key": "c",
+          "name": "component-library",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/component-library/here"
+          }
+        },
+        {
+          "key": "j",
+          "name": "au-js-sdk",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/au-js-sdk/here"
+          }
+        },
+        {
+          "key": "g",
+          "name": "au-commerce-gatsby",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/au-commerce-gatsby/here"
+          }
+        },
+        {
+          "key": "n",
+          "name": "notes",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/notes/here"
+          }
+        },
+        {
+          "key": "h",
+          "name": "au-graph",
+          "type": "command",
+          "command": "extension.openFileFolder",
+          "args": {
+            "path": "/Users/ethanevans/repos/au-graph/here"
+          }
+        }
+      ]
+    },
+    {
+      "keys": "a",
+      "name": "Accept... (git merging)",
+      "type": "bindings",
+      "bindings": []
+    },
+    {
+      "keys": "c",
+      "name": "Codestream...",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "p",
+          "name": "Open PR",
+          "type": "command",
+          "command": "codestream.openPullRequest"
+        },
+        {
+          "key": "l",
+          "name": "Create link",
+          "type": "command",
+          "command": "extension.copyOnlineLink"
+        },
+        {
+          "key": "c",
+          "name": "Create comment",
+          "type": "command",
+          "command": "codestream.newComment"
+        }
+      ]
+    },
+    {
+      "keys": "g",
+      "name": "Git stuff...",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "g",
+          "name": "Open file from diff",
+          "type": "command",
+          "command": "gitlens.openWorkingFileInDiffRight"
+        },
+        {
+          "key": "b",
+          "name": "Toggle blame lines",
+          "type": "command",
+          "command": "gitlens.toggleFileBlame"
+        },
+        {
+          "key": "n",
+          "name": "Next merge conflict",
+          "type": "command",
+          "command": "merge-conflict.next"
+        },
+        {
+          "key": "p",
+          "name": "Previous merge conflict",
+          "type": "command",
+          "command": "merge-conflict.previous"
+        },
+        {
+          "key": "i",
+          "name": "Accept incoming change",
+          "type": "command",
+          "command": "merge-conflict.accept.incoming"
+        },
+        {
+          "key": "c",
+          "name": "Accept current change",
+          "type": "command",
+          "command": "merge-conflict.accept.current"
+        },
+        {
+          "key": "a",
+          "name": "Accept all...",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "i",
+              "name": "Incoming changes",
+              "type": "command",
+              "command": "merge-conflict.accept.incoming"
+            },
+            {
+              "key": "c",
+              "name": "Current changes",
+              "type": "command",
+              "command": "merge-conflict.accept.current"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "keys": "s",
+      "name": "Setting...",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "w",
+          "name": "Word wrap",
+          "type": "command",
+          "command": "editor.action.toggleWordWrap"
+        }
+      ]
+    },
+    {
+      "keys": "e",
+      "name": "Edit...",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "v",
+          "name": "Open settings",
+          "type": "command",
+          "command": "workbench.action.openSettingsJson"
+        }
+      ]
+    },
+    {
+      "keys": "p",
+      "name": "Next problem",
+      "command": "editor.action.marker.next",
+      "type": "bindings"
+    },
+    {
+      "keys": "r",
+      "name": "Rename",
+      "command": "editor.action.rename",
+      "type": "bindings"
+    },
+    {
+      "keys": ":",
+      "name": "Run a vscode command",
+      "command": "workbench.action.showCommands",
+      "type": "bindings"
+    },
+    {
+      "keys": "h",
+      "name": "Navigate left",
+      "command": "workbench.action.navigateLeft",
+      "type": "bindings"
+    },
+    {
+      "keys": "l",
+      "name": "Navigate right",
+      "command": "workbench.action.navigateRight",
+      "type": "bindings"
+    },
+    {
+      "keys": "k",
+      "name": "Navigate up",
+      "command": "workbench.action.navigateUp",
+      "type": "bindings"
+    },
+    {
+      "keys": "j",
+      "name": "Navigate down",
+      "command": "workbench.action.navigateDown",
+      "type": "bindings"
+    },
+    {
+      "keys": "w",
+      "name": "Open...",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "e",
+          "name": "Close panels",
+          "type": "command",
+          "commands": [
+            "workbench.action.closeSidebar",
+            "workbench.action.closePanel"
+          ]
+        },
+        {
+          "key": "o",
+          "name": "Focus output",
+          "type": "command",
+          "command": "workbench.action.output.toggleOutput"
+        },
+        {
+          "key": "p",
+          "name": "Focus problems",
+          "type": "command",
+          "command": "workbench.actions.view.problems"
+        },
+        {
+          "key": "x",
+          "name": "Focus extensions",
+          "type": "command",
+          "command": "workbench.view.extensions"
+        },
+        {
+          "key": "c",
+          "name": "Focus compare",
+          "type": "command",
+          "args": "origin/master",
+          "commands": ["gitlens.compareWorkingWith"]
+        },
+        {
+          "key": "a",
+          "name": "Close all tabs",
+          "type": "command",
+          "command": "workbench.action.closeAllEditors"
+        },
+        {
+          "key": "g",
+          "name": "Focus changes",
+          "type": "command",
+          "command": "workbench.scm.focus"
+        },
+        {
+          "key": "r",
+          "name": "Focus references",
+          "type": "command",
+          "command": "references-view.tree.focus"
+        },
+        {
+          "key": "t",
+          "name": "Focus terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.focus"
+        },
+        {
+          "key": "f",
+          "name": "Fullscreen",
+          "type": "command",
+          "command": "workbench.action.toggleFullScreen"
+        },
+        {
+          "key": "s",
+          "name": "Focus explorer",
+          "type": "command",
+          "command": "workbench.view.explorer"
+        },
+        {
+          "key": "k",
+          "name": "Open keybindings",
+          "type": "command",
+          "command": "workbench.action.openGlobalKeybindings"
+        },
+        {
+          "key": "x",
+          "name": "Focus extensions",
+          "type": "command",
+          "command": "workbench.view.extensions"
+        }
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [","],
+      "commands": ["whichkey.show"]
+    },
+    {
+      "before": ["C-space"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["<C-w>"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["references-view.find"]
+    },
+    {
+      "before": ["g", "n"],
+      "commands": ["editor.action.dirtydiff.next"]
+    },
+    {
+      "before": ["<leader>", "w", "b"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "w", "e"],
+      "commands": [
+        "workbench.action.closeSidebar",
+        "workbench.action.closePanel"
+      ]
+    },
+    {
+      "before": ["<leader>", "w", "o"],
+      "commands": ["workbench.action.output.toggleOutput"]
+    },
+    {
+      "before": ["<leader>", "w", "x"],
+      "commands": ["workbench.view.extensions"] //extensions
+    },
+    {
+      "before": ["<leader>", "w", "h"], //move editor left
+      "commands": ["workbench.action.moveActiveEditorGroupLeft"]
+    },
+    {
+      "before": ["<leader>", "w", "l"], //move editor right
+      "commands": ["workbench.action.moveActiveEditorGroupRight"]
+    },
+    {
+      "before": ["<leader>", "w", "u"],
+      "commands": ["outline.focus"]
+    },
+    {
+      "before": ["<leader>", "w", "p"],
+      "commands": ["workbench.actions.view.problems"]
+    },
+    {
+      "before": ["<leader>", "w", "g"],
+      "commands": ["workbench.scm.focus"]
+    },
+    {
+      "before": ["<leader>", "w", "r"],
+      "commands": ["references-view.tree.focus"]
+    },
+    {
+      "before": ["<leader>", "w", "t"],
+      "commands": ["workbench.action.terminal.focus"]
+    },
+    {
+      "before": ["<leader>", "w", "f"],
+      "commands": ["workbench.action.toggleFullScreen"]
+    },
+    {
+      "before": ["<leader>", "w", "s"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "w", "k"],
+      "commands": ["workbench.action.openGlobalKeybindings"]
+    },
+    {
+      "before": ["<leader>", "g", "p"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "gfp\u000D"
+          }
+        }
+      ]
+    },
+    //GIT/GITLENS
+    {
+      "before": ["<leader>", "g", "l"],
+      "after": [],
+      "commands": ["gitlens.views.lineHistory.focus"]
+    },
+    {
+      "before": ["<leader>", "g", "f"],
+      "after": [],
+      "commands": ["gitlens.views.fileHistory.focus"]
+    },
+    {
+      "before": ["<leader>", "g", "d"],
+      "after": [],
+      "commands": ["gitlens.diffWithPrevious"]
+    },
+    {
+      "before": ["<leader>", "g", "r"],
+      "after": [],
+      "commands": ["gitlens.showRepositoriesView"]
+    },
+    {
+      "before": ["<leader>", "g", "h"],
+      "after": [],
+      "commands": ["gitlens.showQuickFileHistory"]
+    },
+    {
+      "before": ["<leader>", "g", "g"],
+      "after": [],
+      "commands": ["gitlens.openWorkingFileInDiffRight"]
+    },
+    {
+      "before": ["<leader>", "g", "y"],
+      "after": [],
+      "commands": ["gitlens.views.searchAndCompare.swapComparison"]
+    },
+    {
+      "before": ["<leader>", "g", "c"],
+      "after": [],
+      "commands": ["gitlens.views.searchAndCompare.refresh"]
+    },
+    {
+      "before": ["<leader>", "g", "o"],
+      "after": [],
+      "commands": ["gitlens.openChangedFiles"]
+    },
+    {
+      "before": ["<leader>", "g", "t"],
+      "after": [],
+      "commands": ["gitlens.toggleLineBlame"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [","],
+      "commands": ["whichkey.show"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.navigateLeft"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.navigateRight"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.navigateUp"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.navigateDown"]
+    },
+    {
+      "before": ["<leader>", "w", "e"],
+      "commands": [
+        "workbench.action.closeSidebar",
+        "workbench.action.closePanel"
+      ]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "after": ["<esc>"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": ["search.action.focusNextSearchResult"]
+    },
+    {
+      "before": ["<leader>", "N"],
+      "commands": ["search.action.focusPreviousSearchResult"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["<leader>", "e", "r"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "${selectedText}\u000D"
+          }
+        }
+      ]
+    }
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "search.smartCase": true,
+  "search.quickOpen.history.filterSortOrder": "recency",
+  "search.quickOpen.includeSymbols": true,
+  "editor.minimap.enabled": false,
+  "codestream.serverUrl": "https://api.codestream.com",
+  "codestream.email": "ethan.evans@artifactuprising.com",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "extensions.ignoreRecommendations": true,
+  "prettier.configPath": ".prettierrc"
+}
